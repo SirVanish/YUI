@@ -111,7 +111,7 @@ Shader "Custom/SirVanishToonShader"
 		CGPROGRAM
   
 		// noforwardadd: important to remove multiple light passes
-		#pragma surface surf  CelShadingForward  vertex:vertB alphatest:_Cutoff
+		#pragma surface surf  CelShadingForward vertex:vertB alphatest:_Cutoff
 		// Use shader model 3.0 target, to get nicer looking lighting
 		#pragma target 3.0
 
