@@ -1,7 +1,7 @@
 ﻿// Built based off of GearXStage shaders 
 // from https://forum.unity.com/threads/guilty-gear-xrd-shader-test.448557/
 
-Shader "Custom/SirVanishToonShader" 
+Shader "SV/OutlineToon" 
 {
 	Properties
 	{
@@ -83,7 +83,7 @@ Shader "Custom/SirVanishToonShader"
 			Name "OUTLINE"
 			Tags{ "LightMode" = "Always" }
 			Cull Front
-			ZWrite Off
+			ZWrite On
 			ColorMask RGB
 			Blend SrcAlpha OneMinusSrcAlpha
 
