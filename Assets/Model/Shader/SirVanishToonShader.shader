@@ -55,8 +55,8 @@ Shader "Custom/SirVanishToonShader"
 
 	SubShader 
 	{
-		// Tags{ "RenderType"="Opaque" }
-		Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
+		Tags{"Queue"="Transparent" "RenderType"="Opaque"}
+		// Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
 
 		CGPROGRAM
 		#pragma surface surfA Lambert alphatest:_Cutoff
@@ -83,7 +83,7 @@ Shader "Custom/SirVanishToonShader"
 			Name "OUTLINE"
 			Tags{ "LightMode" = "Always" }
 			Cull Front
-			ZWrite On
+			ZWrite Off
 			ColorMask RGB
 			Blend SrcAlpha OneMinusSrcAlpha
 
