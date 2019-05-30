@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: yui_mat
+  m_Name: yui_casual_mat
   m_Shader: {fileID: 4800000, guid: 85b58dcf4dec97341a48ba9c72d0029f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
